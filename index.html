@@ -69,8 +69,9 @@
             sustainable future.
 
             <br /><br />
-            hackathon<br />
+            <h3 class="aboutph3"><span class="aboutph">H</span>ackathon</h3>
             <hr>
+            <br>
             Hackathon allow the space for people to experience the reality of the challenge
             without committing to it long-term, and that may reveal skilled new talent from
             unexpected places.Magnathon '22 is a 24 hr offline event conducted as a part of
@@ -94,8 +95,8 @@
     </section>
     <section id="schedule">
       <div class="title">
-          <h2 class="title_text"><span>S</span>chedule</h2>
-        </div>
+        <h2 class="title_text"><span>S</span>chedule</h2>
+      </div>
       <div class="container">
         <div class="timeline">
           <ul>
@@ -167,31 +168,32 @@
     </section>
 
     <section class="contact" id="contact">
-      <form id="submit-form" action="">
-        <div class="title">
-          <h2 class="title_text"><span>C</span>ontact</h2>
-        </div>
-        <div class="container">
-          <div class="contactform" data-aos="fade-right" data-aos-duration="1500">
-            <h3>Send Message</h3>
-            <div class="inputbox">
-              <input type="text" placeholder="Name" name="name" required />
-            </div>
-            <div class="inputbox">
-              <input type="email" placeholder="Email" name="email" required />
-            </div>
-            <div class="inputbox">
-              <textarea placeholder="Message" name="message" required></textarea>
-            </div>
-            <div class="inputbox">
-              <input type="submit" placeholder="Send" value="Send">
-            </div>
+
+      <div class="title">
+        <h2 class="title_text"><span>F</span>AQs</h2>
+      </div>
+      <div class="faq">
+        <div class="faqs">
+          <div class="question">
+            <h3>What is javascript</h3>
+            <svg width="15" height="10" viewbox="0 0 42 25">
+              <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-licecapre="round" />
+            </svg>
           </div>
-          <div class="img" data-aos="zoom-in" data-aos-duration="1500">
-            <img src="Public/Images/contact.png" alt="Image not found" />
-          </div>
+          <div class="answer"><p>Lore um nequeta id  soluta. Quia earum distinctio itaque accusantium.</p></div>
         </div>
-      </form>
+      </div>
+      <div class="faq">
+        <div class="faqs">
+          <div class="question">
+            <h3>What is javascript</h3>
+            <svg width="15" height="10" viewbox="0 0 42 25">
+              <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-licecapre="round" />
+            </svg>
+          </div>
+          <div class="answer"><p>Lore um nequeta id  soluta. Quia earum distinctio itaque accusantium.</p></div>
+        </div>
+      </div>
     </section>
 
     <div class="copyrighttext">
@@ -284,6 +286,14 @@
         }
       }, 1000);
 
+    </script>
+    <script>
+      const faqs = document.querySelectorAll(".faqs");
+      faqs.forEach(faq=>{
+        faq.addEventListener('click',()=>{
+          faq.classList.toggle("active");
+        })
+      })
     </script>
   </body>
 

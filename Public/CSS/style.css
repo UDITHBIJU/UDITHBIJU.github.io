@@ -578,6 +578,81 @@ section {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: aqua;
+    background-color:#77ac02;
   }
+}
+.faq{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.faqs{
+	 max-width: 700px;
+	 margin-top:2rem;
+	 padding-bottom: 1rem;
+	 border-bottom: 0.5px solid #408051;
+	 cursor: pointer;
+}
+.question{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.question h3{
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #77ac02;
+}
+.answer{
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1.4s ease;
+
+}
+.answer p {
+	padding-top: 1rem;
+	line-height: 1.6rem;
+	font-size: 1.2rem;
+	color:#c0c1bc;
+}
+
+.faqs.active .answer{
+	max-height: 300px;
+	animation: fade 1s ease-in-out;
+}
+
+.faqs.active svg{
+	transform: rotate(180deg);
+}
+svg{
+	transition: transform 0.5s ease-in;
+}
+
+@keyframes fade{
+	from{
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.aboutph3{
+	font-size: 20px;
+}
+.aboutph{
+	color: #77ac02;
+	font-size: 23px;
+}
+@media(max-width:320px){
+	.row .col50{
+		width: 89%;
+	}
+}
+@media only screen and (min-width:321px) and (max-width:375px){
+	.row .col50{
+		width:95%;
+	}
 }
