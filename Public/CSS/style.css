@@ -577,7 +577,7 @@ section {
   }
 }
 .faq{
-	width: 80%;
+	width: 104%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -609,7 +609,7 @@ section {
 .answer p {
 	padding-top: 1rem;
 	line-height: 1.6rem;
-	font-size: 1.2rem;
+	font-size: .9rem;
 	color:#c0c1bc;
 }
 
@@ -721,4 +721,4 @@ svg{
 	.icons ul li{
 		padding: 1rem;
 	}
-}
+} 
