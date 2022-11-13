@@ -243,16 +243,12 @@ section {
 	letter-spacing: 3px;
 }
 .copyrighttext {
-	padding: 30px 40px;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	text-align: center;
+	background-color: #77ac02;
+	border-top: 5px solid #0d1b29;
 }
 .copyrighttext p {
 	color: #111;
-}
-.copyrighttext a {
-	color: #77ac02;
-	text-decoration: none;
 }
 
 @media (max-width: 991px) {
@@ -693,5 +689,36 @@ svg{
 @media (max-width:768px){
 	.question h3{
 		font-size: .7rem;
+	}
+}
+.c{
+	background-color: #0d1a21;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+.ch1{
+	color: #77ac02;
+	font-size: 2rem;
+}
+.icons ul{
+	list-style: none;
+;
+}
+.icons ul li{
+	display: inline-block;
+	padding: 2rem;
+	padding-top: 6rem;
+
+}
+.icons ul li .fas,.fab,.fa{
+	color: #77ac02;
+	font-size: 22px;
+}
+@media (max-width:376px){
+	.icons ul li{
+		padding: 1rem;
 	}
 }

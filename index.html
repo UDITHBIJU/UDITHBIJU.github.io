@@ -22,7 +22,7 @@
         <li><a href="#about" onclick="togglemenu();">About</a></li>
         <li><a href="#schedule" onclick="togglemenu();">Schedule</a></li>
         <li><a href="#Registration" onclick="togglemenu();">Registration</a></li>
-        <li><a href="#FAQs" onclick="togglemenu();">Contact</a></li>
+        <li><a href="#c" onclick="togglemenu();">Contact</a></li>
 
       </ul>
     </header>
@@ -224,21 +224,28 @@
         </div>
       </div>
     </section>
+    <section class="c" id="c">
+      <div>
+        <h1 class="ch1">Contact</h1> 
+      </div>
+      <div class="icons">
+        <ul>
+          <li>
+            <a href="tel:+9112345678"><i class="fas fa-phone-alt items"></i></a></li>
+          <li><a href="https://api.whatsapp.com/send/?phone=%2B91123456789&text=Hello%20" target="_blank"><i
+            class="fab fa-whatsapp items"></i></a></li>
+            <li><a href="mailto:cev@gmail.com?subject=Hello"><i class="fas fa-envelope items"></i></a></li>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </section>
 
     <div class="copyrighttext">
-      <div class="socialMedia">
-        <a href="tel:+9112345678"><i class="fas fa-phone-alt items"></i></a>
-        <a href="https://api.whatsapp.com/send/?phone=%2B91123456789&text=Hello%20" target="_blank"><i
-            class="fab fa-whatsapp items"></i></a>
-        <a href="mailto:cev@gmail.com?subject=Hello"><i class="fas fa-envelope items"></i></a>
-      </div>
-      <hr>
       <p>
         ©️ Copyright of Web Team CEV . All Right are
         Reserved
       </p>
     </div>
-
     <script type="text/javascript">
       window.addEventListener("scroll", () => {
         const header = document.querySelector("header");
