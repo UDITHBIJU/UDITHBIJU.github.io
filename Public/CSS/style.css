@@ -141,7 +141,7 @@ section {
 }
 .row .col50 {
 	position: relative;
-	width: 48%;
+	
 }
 .title_text {
 	color:  #c0c1bc;
@@ -311,10 +311,7 @@ section {
 	.row {
 		flex-direction: column;
 	}
-	.row .col50 {
-		position: relative;
-		width: 100%;
-	}
+
 	.row .col50 .imgbx {
 		height: 300px;
 		margin-top: 20px;
@@ -468,7 +465,9 @@ section {
 	.banner .content h2 {
 		text-shadow: 2px 2px 0px #77ac02;
 	}
+
 }
+
 @media (min-width: 769px) {
 	.fa-bars::before {
 		display: none;
@@ -584,15 +583,16 @@ section {
 .faq{
 	width: 80%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 }
 .faqs{
-	 max-width: 700px;
+	 max-width: 900px;
 	 margin-top:2rem;
 	 padding-bottom: 1rem;
 	 border-bottom: 0.5px solid #408051;
 	 cursor: pointer;
+	 width: 80%;
 }
 .question{
 	display: flex;
@@ -600,7 +600,7 @@ section {
 	align-items: center;
 }
 .question h3{
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 400;
 	color: #77ac02;
 }
@@ -650,9 +650,48 @@ svg{
 	.row .col50{
 		width: 89%;
 	}
+	.timeline-content h2{
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+	.time{
+		font-size: 1rem;
+	}
 }
-@media only screen and (min-width:321px) and (max-width:375px){
+@media only screen and (min-width:321px) and (max-width:376px){
 	.row .col50{
 		width:95%;
+		position: relative;
+	}
+	.timeline-content h2{
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+	.time{
+		font-size: 1.1rem;
+	}
+}
+@media only screen and (min-width:321px) and (max-width:353px){
+	.row .col50{
+		width:91%;
+		position: relative;
+	}
+}
+@media only screen and (min-width:376px) and (max-width:426px){
+	.row .col50{
+		width:99%;
+		position: relative;
+	}
+	.timeline-content h2{
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+	.time{
+		font-size: 1.1rem;
+	}
+}
+@media (max-width:768px){
+	.question h3{
+		font-size: .7rem;
 	}
 }
