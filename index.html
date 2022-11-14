@@ -15,6 +15,8 @@
   </head>
 
   <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
     <header>
       <div class="menutoggle fa fa-bars" onclick="togglemenu();"></div>
       <ul class="navigation">
@@ -272,27 +274,6 @@
     </script>
     <script src="https://kit.fontawesome.com/a79c4beae1.js" crossorigin="anonymous"></script>
     <script>
-      $("#submit-form").submit((e) => {
-        e.preventDefault()
-        $.ajax({
-          crossDomain: true,
-          dataType: 'json',
-          url: "https://script.google.com/macros/s/AKfycbw2TcooMjO5oj1A4ASQiIqn0yey54Fc9B99-VkHWc06uIynwzwpCD1JEA/exec",
-          data: $("#submit-form").serialize(),
-          method: "post",
-          success: function (response) {
-            alert("Your Message Submitted successfully")
-            window.location.reload()
-            //window.location.href="https://google.com"
-          },
-          error: function (err) {
-            alert("Something Error")
-
-          }
-        })
-      })
-    </script>
-    <script>
       const skewedOne = document.querySelector('.skewedOne');
       const skewedTwo = document.querySelector('.skewedTwo');
 
@@ -341,6 +322,14 @@
           faq.classList.toggle("active");
         })
       })
+    </script>
+    <script>
+      let progress = document.getElementById('progressbar');
+      let totalHeight = document.body.scrollHeight-window.innerHeight;
+      window.onscroll = function(){
+        let progressHeight = (window.pageYOffset/totalHeight)*100;
+        progress.style.height = progressHeight + "%";
+      }
     </script>
   </body>
 
