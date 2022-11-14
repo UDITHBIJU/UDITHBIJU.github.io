@@ -605,6 +605,9 @@ svg {
 	.time {
 		font-size: 1.1rem;
 	}
+	
+}
+@media (max-width:426px){
 	.timeline ul li{
 		padding-bottom: 30px;
 	}
