@@ -605,6 +605,9 @@ svg {
 	.time {
 		font-size: 1.1rem;
 	}
+	.timeline ul li{
+		padding-bottom: 30px;
+	}
 }
 @media (max-width: 768px) {
 	.question h3 {
@@ -623,7 +626,7 @@ svg {
 }
 .ch1 {
 	color: #77ac02;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 .icons ul {
 	list-style: none;
@@ -631,13 +634,13 @@ svg {
 .icons ul li {
 	display: inline-block;
 	padding: 2rem;
-	padding-top: 6rem;
+	padding-top: 4rem;
 }
 .icons ul li .fas,
 .fab,
 .fa {
 	color: #77ac02;
-	font-size: 22px;
+	font-size: 2rem;
 }
 @media (max-width: 376px) {
 	.icons ul li {
