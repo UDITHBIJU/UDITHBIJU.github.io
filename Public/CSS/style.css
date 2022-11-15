@@ -306,6 +306,7 @@ section {
 	display: flex;
 	color: #fff;
 	justify-content: center;
+	margin-bottom: 1.5rem;
 }
 .clock {
 	text-shadow: 3px 3px 3px #77ac02;
@@ -358,12 +359,6 @@ section {
 @media (max-width: 350px) {
 	.banner .content h2 {
 		font-size: 1.7em;
-		color: #fff;
-	}
-}
-@media (max-width: 380px) {
-	.banner .content h2 {
-		font-size: 2.5em;
 		color: #fff;
 	}
 }
@@ -588,13 +583,19 @@ svg {
 		font-size: 1rem;
 	}
 }
-@media only screen and (min-width: 321px) and (max-width: 376px) {
+@media only screen and (min-width: 320px) and (max-width: 376px) {
 	.timeline-content h2 {
 		font-size: 1.3rem;
 		font-weight: 400;
 	}
 	.time {
 		font-size: 1.1rem;
+	}
+	.banner .content h2{
+		font-size: 2.7rem;
+	}
+	.banner .content p{
+		margin-top: 19px;
 	}
 }
 @media only screen and (min-width: 376px) and (max-width: 426px) {
@@ -604,6 +605,12 @@ svg {
 	}
 	.time {
 		font-size: 1.1rem;
+	}
+	.banner .content h2{
+		font-size: 3.5rem;
+	}
+	.banner .content p{
+		margin-top: 16px;
 	}
 }
 @media (max-width: 426px) {
@@ -658,7 +665,7 @@ svg {
 	margin-top: 1rem;
 	text-align: center;
 	color: #c0c1bc;
-	font-size: 14px;
+	font-size: 16px;
 }
 @media (max-width: 700px) {
 	.sponsors-list ul {
@@ -685,7 +692,7 @@ svg {
 		justify-content: space-evenly;
 	}
 	.sponsors-list img {
-		width: 15rem;
+		width: 12rem;
 		padding: 2.3rem;
 	}
 	::-webkit-scrollbar {
