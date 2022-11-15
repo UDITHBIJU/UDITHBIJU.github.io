@@ -611,7 +611,7 @@ svg {
 		padding-bottom: 30px;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 993px) {
 	.question h3 {
 		font-size: 0.7rem;
 	}
@@ -755,3 +755,17 @@ svg {
 		padding-left: 2rem;
 	}
 }
+@media (min-width:1023px){
+	.col50{
+		width: 70%;
+	}
+	.row .col50 .imgbox{
+		width: 50%; 
+		margin-left: 10rem;
+		margin-top: 4rem;
+	}
+	.text{
+		width: 105%;
+	}
+}
+
