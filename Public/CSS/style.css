@@ -572,6 +572,7 @@ svg {
 	color: #77ac02;
 	font-size: 23px;
 }
+
 @media (max-width: 320px) {
 	.timeline-content h2 {
 		font-size: 1.2rem;
