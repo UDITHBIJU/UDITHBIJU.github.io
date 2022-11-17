@@ -650,7 +650,7 @@ svg {
 	color: #77ac02;
 	font-size: 2rem;
 }
-@media (max-width: 376px) {
+@media (max-width: 424px) {
 	.icons ul li {
 		padding: 1rem;
 	}
