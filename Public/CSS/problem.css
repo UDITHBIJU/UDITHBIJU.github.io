@@ -9,10 +9,10 @@ html {
 	font-family: "Poppins", sans-serif;
 }
 body {
-	background-color: #0d1a21;
+	background-color: #0d1a21 !important;
 }
 .card{
-	background-color: #0d1a21;
+	background-color:  #eae8e9 !important;
 }
 .heading {
 	text-align: center;
@@ -24,15 +24,6 @@ body {
 	align-items: center;
 	height: 100vh;
 	flex-wrap: wrap;
-}
-.data {
-	border-radius: 3px;
-	background-color: #bbc441bf;
-	display: flex;
-	flex-direction: column;
-	margin-left: 52px;
-	margin-right: 52px;
-	margin-bottom: 20px;
 }
 img {
 	background-size: cover;
@@ -203,4 +194,7 @@ img {
 }
 .card{
 	margin-bottom: 10px;
+}
+.h1{
+	color:#77ac02;
 }
