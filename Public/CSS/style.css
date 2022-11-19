@@ -903,3 +903,15 @@ svg {
 		font-size: 12px;
 	}
 }
+.navigation  li a:after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #77ac02;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.navigation  li a:hover:after{
+    width: 70%;
+}
