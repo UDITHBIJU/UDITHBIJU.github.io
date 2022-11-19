@@ -231,7 +231,22 @@ img {
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
     inset 4px 4px 6px 0 rgba(84, 45, 45, 0.2);
 }
-
+.btn1{
+	background: linear-gradient(0deg, rgb(176 13 51) 0%, rgb(229 35 61) 100%) !important;
+	
+}
+.btn2{
+	    background: linear-gradient(0deg, rgb(39 191 230) 0%, rgb(39 191 230) 100%) !important;
+}
+.btn3{
+	    background: linear-gradient(0deg, rgb(251 196 18) 0%, rgb(250 196 19) 100%) !important;
+}
+.btn4{
+	    background: linear-gradient(0deg, rgb(223 88 26) 0%, rgb(217 87 39) 100%) !important;
+}
+.btn5{
+	    background: linear-gradient(0deg, rgb(253 157 36) 0%, rgb(253 157 36) 100%) !important;
+}
 button {
   margin: 0px;
 }.custom-btn {
@@ -261,5 +276,5 @@ button {
 }
 .custom-btn a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
