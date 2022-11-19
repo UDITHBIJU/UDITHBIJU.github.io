@@ -43,6 +43,7 @@ img {
 	margin-bottom: 5px;
 	margin-top: 3px;
 }
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -53,18 +54,22 @@ img {
 	border-radius: 10rem;
 	transition: all 0.2s;
 	position: relative;
-	border: none;
+	
 	cursor: pointer;
+	background-color: black;
+	color: white;
 }
 .btn-white {
 	background-color: black;
 	color: #777;
 	font-weight: 400;
 }
-
-
-
-
+.btn,
+.btn:link,
+.btn:visited,.btn-white:hover{
+	background-color: black !important;
+	color: #77ac02 !important;
+}
 
 .popup {
 	height: 100%;
@@ -235,7 +240,6 @@ img {
 	margin-top: 55px !important;
 }
 
-
-.card-body{
+.card-body {
 	padding: 0px !important;
 }
