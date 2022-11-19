@@ -44,33 +44,6 @@ img {
 	margin-top: 3px;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
-	text-transform: uppercase;
-	display: inline-block;
-	text-decoration: none;
-	padding: 0.4rem 4rem;
-	border-radius: 10rem;
-	transition: all 0.2s;
-	position: relative;
-	
-	cursor: pointer;
-	background-color: black;
-	color: white;
-}
-.btn-white {
-	background-color: black;
-	color: #777;
-	font-weight: 400;
-}
-.btn,
-.btn:link,
-.btn:visited,.btn-white:hover{
-	background-color: black !important;
-	color: #77ac02 !important;
-}
-
 .popup {
 	height: 100%;
 	width: 100%;
@@ -130,14 +103,6 @@ img {
 }
 
 @media (min-width: 320px) and (max-width: 376px) {
-	.btn,
-	.btn:link,
-	.btn:visited {
-		padding: 0.5rem 0.2rem;
-	}
-	.btn-white {
-		font-size: 10px;
-	}
 	.popup__text {
 		font-size: 0.65rem;
 		margin-bottom: 1rem;
@@ -153,14 +118,6 @@ img {
 	}
 }
 @media (min-width: 376px) and (max-width: 500px) {
-	.btn,
-	.btn:link,
-	.btn:visited {
-		padding: 0.5rem 0.2rem;
-	}
-	.btn-white {
-		font-size: 10px;
-	}
 	.popup__close:link,
 	.popup__close:visited {
 		top: 1rem;
@@ -242,4 +199,67 @@ img {
 
 .card-body {
 	padding: 0px !important;
+}
+.btn-11 {
+  border: none;
+  background: rgb(49, 244, 31) !important;
+    background: linear-gradient(0deg, rgb(11, 214, 11) 0%, rgba(234,76,137,1) 100%) !important;
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover{
+  opacity: .8;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(133, 255, 76, 0.3),
+              -4px -4px 6px 0 rgba(53, 188, 46, 0.2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(84, 45, 45, 0.2);
+}
+
+button {
+  margin: 0px;
+}.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1) ;
+  outline: none;
+}
+
+@keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+.custom-btn a{
+	text-decoration: none;
+	color: black;
 }
