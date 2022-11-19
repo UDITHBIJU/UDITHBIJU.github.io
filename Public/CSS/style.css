@@ -901,12 +901,12 @@ svg {
 }
 @media (min-width: 360px) and (max-width: 376px) {
 	.registration-btnc a {
-		letter-spacing: 1px;
+		letter-spacing: 1px !important;
 	}
 }
 @media (max-width: 360px) {
 	.prize span {
-		font-size: 11px;
+		font-size: 11px !important;
 	}
 }
 @media (min-width: 768px) {
