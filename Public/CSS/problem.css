@@ -203,7 +203,7 @@ img {
 .btn-11 {
   border: none;
   background: rgb(49, 244, 31) !important;
-    background: linear-gradient(0deg, rgb(11, 214, 11) 0%, rgba(234,76,137,1) 100%) !important;
+    background: linear-gradient(0deg, rgb(11, 214, 11) 0%, rgb(88, 225, 73) 100%) !important;
     color: #fff;
     overflow: hidden;
 }
